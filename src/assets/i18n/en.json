@@ -1,0 +1,15 @@
+{
+    "HOME": {
+        "TITLE": "Hello Angular with NGX Translate",
+        "SELECT": "Choose Language"
+    },
+    "PRODUCT": {
+        "NAME": "New Product"
+    },
+    "eager": {
+        "title": "I am in eager module"
+    },
+    "lazy": {
+        "title": "I am in lazy module"
+    }
+}

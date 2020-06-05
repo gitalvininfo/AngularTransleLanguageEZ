@@ -1,0 +1,14 @@
+<div>
+  {{'HOME.TITLE' | translate}}
+  <div style="padding: 10px;">
+    <mat-form-field>
+      <mat-label>{{'HOME.SELECT' | translate}}</mat-label>
+      <mat-select #langSelect [(value)]="currentLang" (selectionChange)="toggleTranslationLang(langSelect.value)">
+        <mat-option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <a [routerLink]="['/lazy']" class="linkArrange">LazyLoad</a>
+  <a [routerLink]="['/eager']" class="linkArrange">EagerLoad</a>
+  <router-outlet></router-outlet>
+</div>

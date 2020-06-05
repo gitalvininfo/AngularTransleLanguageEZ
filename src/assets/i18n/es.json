@@ -1,0 +1,15 @@
+{
+  "HOME": {
+    "TITLE": "Hola Angular con NGX Traducir",
+    "SELECT": "Elige lengua"
+  },
+  "PRODUCT": {
+    "NAME": "Nuevo producto"
+  },
+  "eager": {
+    "title": "Estoy en un módulo ansioso"
+  },
+  "lazy": {
+    "title": "Estoy en un módulo perezoso"
+  }
+}
